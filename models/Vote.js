@@ -12,7 +12,7 @@ Vote.init(
         },
         user_id: {
             type: DataTypes.INTEGER,
-            allowNull: flase,
+            allowNull: false,
             references: {
                 model: 'user',
                 key: 'id'
